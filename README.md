@@ -37,10 +37,8 @@ This section explains how to build mlir-xten and provide python bindings for xte
     conda install libgcc -c conda-forge
     ```
 - ##### Setup Env Variables
-    ```
-    setenv PATH /group/xrlabs/tools/x86_64_RHEL7_clang12/bin:${PATH}
-    setenv PATH /tools/batonroot/rodin/devkits/lnx64/gcc-10.2.0/bin:${PATH}
-    setenv LD_LIBRARY_PATH /group/xrlabs/tools/x86_64_RHEL7_clang12/lib:${LD_LIBRARY_PATH}
+    ``` 
+    setenv PATH /tools/batonroot/rodin/devkits/lnx64/gcc-10.2.0/bin:${PATH} 
     setenv LD_LIBRARY_PATH /tools/batonroot/rodin/devkits/lnx64/gcc-10.2.0/lib64:${LD_LIBRARY_PATH}
     setenv CC /tools/batonroot/rodin/devkits/lnx64/gcc-10.2.0/bin/gcc
     setenv CXX /tools/batonroot/rodin/devkits/lnx64/gcc-10.2.0/bin/g++
